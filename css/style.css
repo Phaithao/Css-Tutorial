@@ -1,0 +1,128 @@
+body {
+    font-family: "Times New Roman";
+    font-weight: 500;
+    background-color: aqua;
+}
+
+.title {
+    margin-top: auto;
+    font-size: 2.5em;
+    box-shadow: 2px 2px;
+    text-align: center;
+    background-color: #000000;
+    color: red;
+    padding: 2% 2%;
+}
+
+.css-slideshow {
+    position: center;
+    max-width: 500px;
+    height: 500px;
+    margin: 5em auto .5em auto;
+}
+
+.css-slideshow figure {
+    margin: -45px;
+    max-width: 500px;
+    height: 500px;
+    background: #000000;
+    position: absolute;
+}
+
+.css-slideshow img {
+    box-shadow: 2px 2px 2px #666666;
+}
+
+.css-slideshow figcaption {
+    position: relative;
+    top: -44px;
+    color: #F00000;
+    background: rgba(0, 0, 0, 1);
+    font-size: 1.3em;
+    padding: 8px 12px;
+    opacity: 0;
+    transition: opacity .5s;
+    text-align: center;
+}
+
+.css-slideshow:hover figure figcaption {
+    transition: opacity .5s;
+    opacity: 1;
+}
+
+.css-slideshow-attr {
+    max-width: 500px;
+    text-align: right;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.css-slideshow-attr a {
+    color: #666;
+}
+
+.css-slideshow figure {
+    opacity: 0;
+}
+
+figure:nth-child(1) {
+    animation: xfade 40s 35s infinite;
+}
+
+figure:nth-child(2) {
+    animation: xfade 40s 30s infinite;
+}
+
+figure:nth-child(3) {
+    animation: xfade 40s 25s infinite;
+}
+
+figure:nth-child(4) {
+    animation: xfade 40s 20s infinite;
+}
+
+figure:nth-child(5) {
+    animation: xfade 40s 15s infinite;
+}
+
+figure:nth-child(6) {
+    animation: xfade 40s 10s infinite;
+}
+
+figure:nth-child(7) {
+    animation: xfade 40s 5s infinite;
+}
+
+figure:nth-child(8) {
+    animation: xfade 40s 0s infinite;
+}
+
+@keyframes xfade {
+    0% {
+        opacity: 1;
+    }
+    10.5% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity: 0;
+    }
+    98% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#footer {
+    color: black;
+    padding: 7px;
+    margin: 0 auto;
+    width: 980px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+}
