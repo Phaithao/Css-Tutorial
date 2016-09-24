@@ -1,6 +1,7 @@
 # Css-Tutorial
 Module 5
 Link to article used: http://www.cssscript.com/css-only-crossfading-background-slideshow/
+
 Summary of what I learned:
   I learned how to create a crossfading slideshow with multiple images that repeats infinitely. I also learned how to change the opacity of an image from a certain amount of percentage to a different amount over time. The thing that I enjoyed learning the most was the animation, I thought it would take more than what it taught me, but I guess not. After testing it out a few times, it was really cool to be able to do this.
 
