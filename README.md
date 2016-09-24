@@ -7,7 +7,6 @@ Summary of what I learned:
   I learned how to create a crossfading slideshow with multiple images that repeats infinitely. I also learned how to change the opacity of an image from a certain amount of percentage to a different amount over time. The thing that I enjoyed learning the most was the animation, I thought it would take more than what it taught me, but I guess not. After testing it out a few times, it was really cool to be able to do this.
 
 Review of the article:
-
 Like/Dislike
 
   I like how I can put as many images as I want into the slideshow with minimum efforts. Also, there are not much things that are needed to do in order for the slideshow to work. I also like how organized and neat the texts are. Steps are easy to follow and and it tells where you need to put what.
